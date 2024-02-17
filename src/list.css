@@ -1,0 +1,70 @@
+.main-part {
+    background-image: url(https://media.istockphoto.com/id/1255606250/vector/abstract-financial-graph-with-uptrend-line-in-stock-market-and-cityscape-on-blue-colour.jpg?s=612x612&w=0&k=20&c=HL-CMM4Q54k1YDtj-5ShMYmHhLEZNDlC4ufayNvseBA=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 600px;
+  }
+  
+  .main-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .left-area {
+    grid-column: 1; 
+    max-height: 350px;
+    overflow-y: auto;
+    text-align: left;
+  }
+  
+  .right-area {
+    grid-column: 2; 
+    max-height: 350px;
+    overflow-y: auto;
+    text-align: left;
+  }
+
+  .heading-main{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .keys{
+    color:darkmagenta;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .values{
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .cat{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:darkmagenta;
+  }
+  .total{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:black;
+  }
+  h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:black;
+    padding-left: 15px;
+  }
+  .no-data-message{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+  }

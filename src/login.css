@@ -1,0 +1,69 @@
+.big {
+    background-image: url(https://thumbs.dreamstime.com/b/financial-stock-market-graph-rows-coins-growth-abstract-symbol-finance-concept-business-investment-currency-exchange-162020228.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+  }
+  
+  .box {
+    background-color:hsl(195, 47%, 61%); 
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    max-width:400; 
+    margin: auto; 
+  }
+  
+  .box label {
+    display: block;
+    margin-bottom: 10px;
+    font-family:'Libre Baskerville', serif;
+    font-weight: bolder;
+    font-size: large;
+}
+  
+  .box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .box button {
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .box a:hover {
+    text-decoration: underline;
+  }
+   
+  h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.5rem;
+    font-weight:bolder;
+    padding-bottom: 10px;
+  }
+
+  

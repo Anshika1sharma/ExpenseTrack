@@ -1,0 +1,46 @@
+.back-area{
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/24/13/50/business-1219882_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .para-area{
+    grid-column: 1;
+  }
+  .pie-area{
+    grid-column: 2;
+  }
+  .pies{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .pie-lines{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  #myChart {
+      width: 200px;
+      height: 200px;
+      margin: 20px auto;
+      display: block;
+    }
+    .back-button{
+      font-family:'IBM Plex Serif', serif ;
+      font-size: 1.6rem;
+      font-weight: bold;
+      padding: 10px 20px;
+      background-color: navy;
+      color: white;
+    }
+    .no-data-message{
+      font-family: 'Roboto Slab', serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color:rgb(0, 0, 0);
+    }
+    
+    

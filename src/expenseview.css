@@ -1,0 +1,67 @@
+.view-box {
+    background-image: url(https://wallpaperbat.com/img/680654-finance-wallpaper.jpg);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+  
+  .view-heading {
+    grid-column: span 2;
+    font-family: 'Song Myung', serif;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 0px; 
+  }
+  
+  .choice-box {
+    grid-column: 1;
+    padding-top:0px;
+    padding-left: 20px;
+    margin-top: 0px;
+  }
+  
+  .choice {
+    background-color:lavenderblush;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .choice:hover {
+    background-color:darksalmon;
+  }
+
+  
+  .choice + .choice{
+    margin-left: 10px; 
+  }
+  
+  
+  .head{
+    color: antiquewhite;
+    font-family:'Song Myung', serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-top:0;
+    margin-top: 0;
+   
+  }
+
+  .parag{
+    color: antiquewhite;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 0;
+
+  }
+  
+  
