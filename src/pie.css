@@ -2,7 +2,7 @@
     background-image: url(https://cdn.pixabay.com/photo/2016/02/24/13/50/business-1219882_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 600px;
+    min-height: 650px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
